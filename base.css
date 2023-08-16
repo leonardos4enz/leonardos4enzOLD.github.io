@@ -47,6 +47,13 @@
     
 }
 
+.front-100{
+    position:relative;
+    z-index:100;
+}
+
+
+
 .font-gradient-1{
     background: linear-gradient(125deg, white, rgba(255, 255, 255, 0.83));
     background-clip: text;
