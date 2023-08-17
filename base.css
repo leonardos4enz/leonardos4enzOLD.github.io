@@ -1,0 +1,8 @@
+.first-container{
+    min-height: 150vh;
+}
+
+.third-container{
+    min-height: 100vh;
+    background-color: red;
+}
