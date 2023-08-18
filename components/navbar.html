@@ -1,0 +1,116 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand sfpro-bold font-gradient-1 glow" href="#">Leonardo Sáenz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" sytle="color: white">
+        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+      </span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto sfpro-regular">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link test">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <style>
+
+@font-face {
+    font-family: 'San-Francisco-Pro-Regular'; /* Nombre que usarás para referenciar la fuente */
+    src: url('/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'San-Francisco-Thin'; /* Nombre que usarás para referenciar la fuente */
+    src: url('/assets/fonts/SF-Pro-Display-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'San-Francisco-Bold'; /* Nombre que usarás para referenciar la fuente */
+    src: url('/assets/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+}
+
+
+.sfpro-regular{
+    font-family: San-Francisco-Pro-Regular !important;
+}
+
+.sfpro-thin{
+    font-family: San-Francisco-Thin !important;
+}
+
+.sfpro-bold{
+    font-family: San-Francisco-Bold !important;
+}
+
+    .navbar{
+        padding-left: 25px; 
+        padding-right: 10px;
+        background-color: transparent !important;
+        /*background-image: linear-gradient(90deg,#e6e9f0, #eef1f5);*/
+    }
+
+    .navbar .navbar-brand{
+        font-size: 25px;
+        
+    }
+
+    .navbar-nav{
+      display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navbar .nav-item{
+        font-size: 18px;
+    }
+
+    .navbar .navbar-toggler{
+        border: 0px solid red;
+        border-radius: 50%;
+        padding: 10px 10px;
+        color: white !important;
+    }
+
+    .navbar .nav-link{
+        margin: 5px 10px !important;
+        padding: 10px 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 500px;
+        width: 150px;
+        color: white !important;
+        background-color: #d9dce200;
+        font-family: San-Francisco-Thin !important;
+        letter-spacing: 1px;
+        border: 1px solid rgba(255, 255, 255, 0.748); 
+        transition: transform 0.2s ease-in, background-color 0.5s ease-in, box-shadow 0.3s ease-in, border 0.3s ease-in, color 0.3s ease-in;
+    }
+
+    .navbar .nav-link:hover{
+        transform: translateY(-2px);
+        color: black !important;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.152);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(0, 0, 0, 0); 
+    }
+
+
+
+    /*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    
+    
+    
+  </style>
