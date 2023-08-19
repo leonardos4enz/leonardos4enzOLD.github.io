@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     loadComponent('components/navbar.html', 'navbar-placeholder');
+    loadComponent('components/starsbg.html', 'starsbg-placeholder');
 });
 
 function loadComponent(url, placeholderId) {
