@@ -222,8 +222,7 @@ section{
   border-radius: 5px;
   font-size: var(--font-size-sm);
   font-family: 'San-Francisco-Pro-Regular';
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.904);
   background: rgba(0, 0, 0, 0.418);
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
