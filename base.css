@@ -190,12 +190,14 @@ section{
   display: flex;
   height: 100vh; /* Asigna una altura de 100vh a .section-container */
   background-color: rgba(0, 0, 255, 0);
+  width: 100vw !important;
 }
 
 .section-buttons {
   display: flex !important;
-  align-self: flex-start; 
-  margin: auto auto 10%  auto;
+  align-self: flex-start;
+  width: 100vw !important;
+  margin: auto 0 5%  0;
 }
 
 .section-button-1{
