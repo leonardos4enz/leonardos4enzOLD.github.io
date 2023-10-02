@@ -12,7 +12,7 @@
     --blue-color: rgb(0, 162, 255);
     --main-color: rgb(255, 255, 255);
     --contrast-color: #ffffff;
-    --font-size-sm: 16px;
+    --font-size-sm: 14px;
 }
 
 
@@ -75,7 +75,7 @@
 }
 
 .first-container{
-    cursor: url(assets/images/cursor-3.png), auto;
+    /*cursor: url(assets/images/cursor-3.png), auto;*/
 }
 
 
@@ -189,38 +189,41 @@ section{
 .section-container {
   display: flex;
   height: 100vh; /* Asigna una altura de 100vh a .section-container */
-  background-color: rgba(0, 0, 255, 0);
-  width: 100vw !important;
+  background-color: rgba(0, 238, 255, 0);
+  width: 100vw !important; 
 }
 
 .section-buttons {
-  display: flex !important;
-  align-self: flex-start;
-  width: 100vw !important;
-  margin: auto 0 5%  0;
+  margin: auto auto 10vh auto;
 }
 
 .section-button-1{
+  letter-spacing: 1px;
+  cursor:pointer;
   padding: 10px 0;
-  margin: 0px 4px;
+  margin: 2px 2px;
   min-width: 250px;
   text-align: center;
   border-radius: 5px;
   font-size: var(--font-size-sm);
   font-family: 'San-Francisco-Pro-Regular';
+  font-weight: bold;
+  letter-spacing: 0.4px;
   background-color: rgba(255, 255, 255, 0.85);
 }
 
 .section-button-2{
+  letter-spacing: 1px;
+  cursor:pointer;
   padding: 10px 0;
-  margin: 0px 4px;
+  margin: 2px 2px;
   min-width: 250px;
   text-align: center;
   border-radius: 5px;
   font-size: var(--font-size-sm);
   font-family: 'San-Francisco-Pro-Regular';
-
-  color: white;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.85);
   background: rgba(0, 0, 0, 0.418);
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
