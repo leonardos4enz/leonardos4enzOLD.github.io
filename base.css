@@ -185,3 +185,9 @@ section{
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
+
+.section-button{
+  height: 100vh;
+  position: relative;
+  margin-top: auto;
+}
