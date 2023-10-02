@@ -1,3 +1,5 @@
+
+
 document.addEventListener('DOMContentLoaded', function () {
     AOS.init();
     loadComponent('components/navbar.html', 'navbar-placeholder');
@@ -20,8 +22,8 @@ function loadComponent(url, placeholderId) {
 var vara = new Vara(
     "#welcome", "https://cdn.jsdelivr.net/npm/vara@1.4.0/fonts/Pacifico/PacificoSLO.json", [
     {
-        text: "Bienvenido/a",
-        fontSize: 48,
+        text: "Bienvenido/a!",
+        fontSize: 40,
         strokeWidth: 0.5,
         color: "white",
         id: "",
@@ -33,7 +35,7 @@ var vara = new Vara(
         letterSpacing: 0
     }
     ], {
-    fontSize: 24,
+    fontSize: 23,
     strokeWidth: 0.5,
     duration: 2000,
     textAlign: "left",
