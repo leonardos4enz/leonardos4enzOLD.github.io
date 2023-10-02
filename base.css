@@ -1,5 +1,5 @@
 .first-container{
-    min-height: 150vh;
+    /*min-height: 150vh;*/
 }
 
 .third-container{
@@ -173,4 +173,15 @@
 .main-video{
   width: 100%;
   object-fit: cover;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
