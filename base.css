@@ -1,5 +1,5 @@
 .first-container{
-    min-height: 150vh;
+    /*min-height: 150vh;*/
 }
 
 .third-container{
@@ -7,16 +7,23 @@
 }
 :root {
     --main-bg-color: #E7473C;
+    --elegant-black-color: #010101;
+    --light-blue-color: rgb(128, 208, 255);
+    --blue-color: rgb(0, 162, 255);
+    --main-color: rgb(255, 255, 255);
+    --contrast-color: #ffffff;
+    --font-size-sm: 16px;
 }
 
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
+
+/* ===== Scrollbar CSS ===== 
+
   * {
     scrollbar-width: auto;
     scrollbar-color: #ff0000 #ffffff;
   }
 
-  /* Chrome, Edge, and Safari */
+
   *::-webkit-scrollbar {
     width: 10px;
     
@@ -38,7 +45,7 @@
     background-color: #ffffff;
     cursor: url(assets/images/cursor-3.png), auto;
   }
-
+*/
 @font-face {
     font-family: 'San-Francisco-Pro-Regular'; /* Nombre que usarás para referenciar la fuente */
     src: url('/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
@@ -69,16 +76,8 @@
 
 .first-container{
     cursor: url(assets/images/cursor-3.png), auto;
-    min-height: 100vh;
-    max-width: 100vw;
 }
 
-.third-container{
-    /*background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
-    background-size: 400% 400%;
-    animation: animate 7.5s ease-in-out infinite;*/
-    min-height: 100vh;    
-}
 
 .front-100{
     position:relative;
@@ -88,7 +87,7 @@
 
 
 .font-gradient-1{
-    background: linear-gradient(125deg, white, rgba(255, 255, 255, 0.83));
+    background: linear-gradient(125deg, var(--blue-color), var(--blue-color));
     background-clip: text;
     color: transparent;
 	-webkit-background-clip: text;
@@ -124,12 +123,6 @@
   }
 
 
-.blur-navbar{
-  background: rgba( 255, 255, 255, 0.25 );
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
-  border-bottom: 1px solid rgba( 255, 255, 255, 0.18 );
-}
 
 .blur-w{
   background: rgba(255, 255, 255, 0);
@@ -172,4 +165,64 @@
   width: 400px !important;
 }
 
+.main-video-container{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-video{
+  width: 100%;
+  object-fit: cover;
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section{
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.section-container {
+  display: flex;
+  height: 100vh; /* Asigna una altura de 100vh a .section-container */
+  background-color: rgba(0, 0, 255, 0);
+  width: 100vw !important;
+}
+
+.section-buttons {
+  display: flex !important;
+  align-self: flex-start;
+  width: 100vw !important;
+  margin: auto 0 5%  0;
+}
+
+.section-button-1{
+  padding: 10px 0;
+  margin: 0px 4px;
+  min-width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: var(--font-size-sm);
+  font-family: 'San-Francisco-Pro-Regular';
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.section-button-2{
+  padding: 10px 0;
+  margin: 0px 4px;
+  min-width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: var(--font-size-sm);
+  font-family: 'San-Francisco-Pro-Regular';
+
+  color: white;
+  background: rgba(0, 0, 0, 0.418);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+}
 

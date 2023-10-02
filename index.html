@@ -11,39 +11,45 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-    <!--Fondo Estrellado-->
+    <!--Fondo Estrellado
     <div id="starsbg-placeholder"></div>
+    -->
     
     <!--Contenido-->
-    <div class="first-container" style="position: relative; z-index: 100; background: transparent;">
+    <div class="first-container" style="position: relative; z-index: 100;">
         <div class="secondary-container">
             <div  class="third-container">
                 <div id="navbar-placeholder"></div>
-
-                <br>
-                <br>
-
-                <div class="mt-5 mb-2" style="display: flex; justify-content: center; align-items: center;" >
-                    <div id="welcome" class="hand-writting" ></div>
-                </div>
-
-                <div class="">
-                    <div class="container d-flex justify-content-center align-items-center">
-                        <div class="row col-sm-12 col-md-12 col-lg-12 col-xl-12 text-light pb-5">
-                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center" style="padding: 40px 20px">
-                                <div class="border-hover" style="padding: 40px;" data-aos="zoom-in-up">
-                                    <div class="mb-4">
-                                        <h1 class="sfpro-bold">¡Mucho gusto!</h1>
+                <div class="scroll-container">
+                    <section id="section1">
+                        <div style="position: relative; " class="main-video-container">
+                            <video autoplay muted style="width: 100%; height: 100%; position: absolute; z-index: -1;" class="main-video" loop>
+                              <source src="/assets/videos/bg-video-2.mp4" type="video/mp4">Tu navegador no admite la reproducción de videos.
+                            </video>
+                            
+                            <div class="section-container">
+                                
+                                <div class="section-buttons">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" style="background-color: red; height: 100px;">
+                                            <div class="section-button-1">
+                                                Contáctame
+                                            </div></div>
+                                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6" style="background-color: blue; height: 100px;"></div>
+                                    </div>
+                                    <!--
+                                        <div class="section-button-1">
+                                        Contáctame
                                     </div>
                                     <div>
-                                        <h5  class="sfpro-thin text-wrap" style="text-align: justify;">
+                                        <h5 class="sfpro-thin text-wrap" style="text-align: justify;">
                                             Soy Leonardo Sáenz, un entusiasta desarrollador Full Stack con una profunda pasión por la programación. Para mí, cada proyecto es una oportunidad emocionante para crear soluciones innovadoras. Mi enfoque no es solo escribir código, sino también dar vida a ideas a través de la tecnología.
                                         </h5>
                                     </div>
                                 </div>
                             </div>                                                       
-                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 order-0"  data-aos="zoom-in-up">
-                                <div class="d-flex justify-content-center align-items-center floating" >
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 order-0">
+                                <div class="d-flex justify-content-center align-items-center floating">
                                     <img class="glow-border" src="https://avatars.githubusercontent.com/u/60331119?v=6" style="border: 2px solid rgba(255, 255, 255, 0.219); transform: scale(0.8); border-radius: 50%; padding: 5px; width: 30vw; min-width: 350px; max-width: 450px;">
                                 </div>
                             </div>
@@ -55,28 +61,18 @@
 
                 </div>
                 
-                <!--<div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                <div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                <div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                <div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                <div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                <div style="background-color: red;height: 100px;width: 100px;"></div>
-                <div style="background-color: rgb(255, 0, 157);height: 100px;width: 100px;"></div>
-                -->
             </div>
         </div>
     </div>
+
+
 
     <!--Sweet Alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
     <!--JQuery-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    
     
     <!--Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -105,6 +101,14 @@
     <!--Page JS-->
     <script src="index.js?v=3"></script>
 
+
+    <!--
+        Paleta de colores: Negro, Gris Oscuro y Azul
+    -->
 </script>
+
+<style>
+    
+</style>
 </body>
 </html>

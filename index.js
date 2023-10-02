@@ -17,33 +17,3 @@ function loadComponent(url, placeholderId) {
     xhr.send();
 }
 
-
-//Handwritting
-var vara = new Vara(
-    "#welcome", "https://cdn.jsdelivr.net/npm/vara@1.4.0/fonts/Pacifico/PacificoSLO.json", [
-    {
-        text: "Bienvenido/a!",
-        fontSize: 40,
-        strokeWidth: 0.5,
-        color: "white",
-        id: "",
-        duration: 3000,
-        textAlign: "center",
-        autoAnimation: true,
-        queued: true,
-        delay: 0,
-        letterSpacing: 0
-    }
-    ], {
-    fontSize: 23,
-    strokeWidth: 0.5,
-    duration: 2000,
-    textAlign: "left",
-    autoAnimation: true,
-    queued: true,
-    letterSpacing: 0
-    }
-);
-
-
-vara.ready(function() {});
